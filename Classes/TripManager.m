@@ -656,8 +656,6 @@
     //switch to map w/ trip view
     [(RecordTripViewController *)parent displayUploadedTripMap];
     
-    //TODO: get screenshot and store.
-
     if ( theConnection )
      {
          receivedData=[[NSMutableData data] retain];
